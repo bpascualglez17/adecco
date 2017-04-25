@@ -1,5 +1,6 @@
 package com.gmv.vodafone;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public interface OfertaDAO {
@@ -8,6 +9,6 @@ public interface OfertaDAO {
 	
 	Oferta getOferta(int codigoOferta) throws OfertaException;
 	
-	
+	LocalDate getDate (int codigoOferta) throws OfertaException;
 	
 }
