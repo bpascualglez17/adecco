@@ -41,5 +41,11 @@ public class Oferta implements Serializable {
 		this.fechaInicio = fechaInicio;
 	}
 
+	@Override
+	public String toString() {
+		return "Oferta [codigoOferta=" + codigoOferta + ", referencia=" + referencia + ", fechaInicio=" + fechaInicio
+				+ "]";
+	}
+
 	
 }
